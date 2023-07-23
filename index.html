@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Score Keeper</h1>
+      <h2><span id="p1Score">0</span> to <span id="p2Score">0</span></h2>
+      <p>Use the buttons below to keep score.</p>
+      <label for="scoreLimit">Playing To:</label>
+      <select id="scoreLimit">
+        <option value="3">3</option>
+        <option value="5">5</option>
+        <option value="7">7</option>
+      </select>
+      <button class="p1Btn">+1 Player 1</button>
+      <button class="p2Btn">+1 Player 2</button>
+      <button class="resetBtn">Reset</button>
+    </div>
+  </body>
+</html>
